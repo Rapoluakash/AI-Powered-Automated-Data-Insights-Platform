@@ -1,0 +1,16 @@
+name: ai-data-insights
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.8  # Specify your desired Python version
+  - pip
+  - pandas
+  - numpy
+  - seaborn
+  - matplotlib
+  - scikit-learn
+  - sweetviz
+  - joblib
+  - pip:
+      - streamlit
